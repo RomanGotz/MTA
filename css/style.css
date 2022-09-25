@@ -784,68 +784,120 @@ transition: all 0.5s;
   background-color: beige;
 }
 
+/*servicios.html main  */
 
-.mt-contenedor{
-  display: grid;
-  grid-template-columns: 60% 40%;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  
-}
-.div-mt-titulo{
-  grid-column: 1/1;
-  grid-row:1/1;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
-.div-mt-p{
-grid-column: 1/1;
-grid-row: 2/2;
-display:flex;
-  /* align-items: center; */
-  justify-content: center;
- 
-}
-.div-img-mt{
-  grid-column: 2/2;
-  grid-row:1/2 ;
-  
-  
-  
-}
-
-.h2-mt-titulo {
+/* servicios.html media training */
+.h3-mt{
   font-family: "Poppins", sans-serif;
   font-size: 350%;
-  margin: 5px;
-  font-style: normal;
+  margin: 10px 5px 5px 5px;
+  font-style: italic;
   color: rgb(184, 25, 25);
-    
-}
+  font-weight: bold;
 
-.p-mt-txt {
+}
+.p-mt {
   font-family: "Poppins", sans-serif;
   font-size: 150%;
-  margin: 5px;
+  margin: 10px 5px 5px 5px;
   font-style: italic;
   color: rgb(184, 25, 25);
   
-  
-
 }
+
 .img-mt{
+  border-color: rgb(94, 88, 88);
+  border-width: 5px 5px 5px 5px;
+  border-style: solid;
+  width: 97%;
+  height: 95%; 
+  object-fit: cover;
+  margin: 20px 5px 5px 5px;
+    
+}
+
+/* servicios.html media crisis */
+.h3-mc {
+  font-family: "Poppins", sans-serif;
+  font-size: 350%;
+  margin: 10px 5px 5px 5px;
+  font-style: italic;
+  color: rgb(184, 25, 25);
+  font-weight: bold;
+}
+.p-mc {
+  font-family: "Poppins", sans-serif;
+  font-size: 150%;
+  margin: 10px 5px 5px 5px;
+  font-style: italic;
+  color: rgb(184, 25, 25);
+  
+}
+
+.img-mc{
   border-color: rgb(94, 88, 88);
   border-width: 5px;
   border-style: solid;
   width: 97%;
-  max-height: 750px; 
-  height: 750%;
+  height: 95%; 
   object-fit: cover;
-  /* margin: 5px; */
-   
+  margin: 20px 5px 5px 5px;
+    
 }
+/* servicios.html separador */
+
+.separador-org{
+  border-color: rgb(94, 88, 88);
+  border-width: 5px;
+  border-style: solid;
+  width: 97%;
+  height: 150px; 
+  object-fit: cover;
+  margin: 20px 0px 20px 10px;
+ 
+}
+/* servicios.html hablar en publico-etc */
+
+.h3-hp {
+  font-family: "Poppins", sans-serif;
+  font-size: 260%;
+  margin: 5px;
+  font-style: italic;
+  color: rgb(184, 25, 25);
+  font-weight: bold;
+}
+
+.h3-hp-bis {
+  font-family: "Poppins", sans-serif;
+  font-size: 230%;
+  margin: 5px;
+  font-style:oblique;
+  color: rgb(184, 25, 25);
+  font-weight: bold;
+}
+.p-hp {
+  font-family: "Poppins", sans-serif;
+  font-size: 150%;
+  margin: 10px 5px 5px 5px;
+  font-style: italic;
+  color: rgb(184, 25, 25);
+  
+}
+
+.img-hp{
+  border-color: rgb(94, 88, 88);
+  border-width: 5px;
+  border-style: solid;
+  width: 97%;
+  height: 97%; 
+  object-fit: cover;
+  margin: 10px 5px 5px 5px;
+    
+}
+.serv-main-contenedor {
+height:80%;
+}
+
 
 
 

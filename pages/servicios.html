@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../images/logo1.png" type="image/x-icon" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css" />
     <title>MTA Servicios</title>
   </head>
@@ -50,98 +52,115 @@
       </nav>
     </header>
     <main>
-    <section >
-      <div class="mt-contenedor">
-        <div class="div-mt-titulo">
-          <h2 class="h2-mt-titulo">Media Training</h2>
-        </div>
-        <div class="div-mt-p">
-          <p class="p-mt-txt">
-            Imagine una cámara de televisión, un micrófono o un
-            reportero grabando cada una de sus palabras. 
-            Ya sea que se prepare para entrevistas gráficas, radiales, redes sociales o por TV. 
-            <br>
-            <br>
-            Le brindamos las herramientas que necesita para manejar preguntas difíciles y brillar. 
-            <br>
-            <br>
-            Debido a que todos nuestros entrenadores son periodistas expertos, saben qué preguntas se harán
-            y cómo sus palabras jugarán en cada situación.
-          </p>
-        </div>
-
-        <div class="div-img-mt">
-
-         <img class="img-mt" src="../images/media-training.png" alt="media-training" />
-        </div>
-      
-    
-
-    
-        <div class="div-mc-p">
-          <p class="p-mc-txt">
-            Crisis Training Proteja su reputación cuando hay mucho en juego Si
-            su empresa o institución fuera inesperadamente puesta en el centro
-            de atención, ¿sabría qué hacer? ¿Puede comunicarse claramente con
-            los medios, las partes interesadas cuando su reputación está en
-            juego? Ayudaremos a desarrollar un plan de acción, identificar y
-            desarrollar mensajes para audiencias internas y externas, y preparar
-            portavoces para todas las entrevistas y apariciones Nuestros
-            programas de capacitación en crisis simulan situaciones de la vida
-            real específicas de su actividad que requieren que su equipo de
-            gestión ponga a prueba su plan de emergencia.
-          </p>
-        </div>
-        <div class="div-img-mc" >
-
-          <img class="img-mc" src="../images/media-crisis-v1.png" alt="media-crisis" />
-        </div>
-      
-
-     <!-- Separador -->
-        <div class="sep-servicios">
-          <img class="img-sep"  src="../images/organizacion.png"   alt="comunicación-organizacional"  />
-        </div>
-        <div class="div-h2-hablar">
-          <h2 class="h2-hablar">Hablar en Publico</h2>
-          
-
-          <h2 class="h2-org">Comunicacion Organizacional</h2>
-
-          <h2 class="h2-no-verbal">Comunicación no Verbal</h2>
-        </div>
-
-        <div class="div-p-hablar">
-          <p class="p-hablar-txt">
-            <strong Elabore mensajes convincentes />
-            <br>
-            <br>
-            ¿Con qué frecuencia se esfuerza por crear presentaciones que atraigan a los oyentes? Sabe lo que quiere
-            decir, pero no sabe cómo decirlo Estás estresado. 
-            <br>
-            <br>
-            Los programas de
-            presentación y formación de oradores eliminan el estrés de hablar,
-            aprenderá a controlar los nervios, organizar el contenido,
-            conectarse mejor con los oyentes y cómo adaptar su mensaje a su
-            audiencia. 
-            <br>
-            <br>
-            Cree ejemplos, analogías y argumentos para humanizar los
-            hechos. Use elementos visuales de manera más efectiva. 
-            <br>
-            <br>
-            Dirigido a oradores de todos los niveles, ofrecemos entrenamiento para
-            brindarle múltiples oportunidades de practicar y recibir comentarios
-            en el lugar para ayudarlo a mejorar de inmediato
-          </p>
-        </div>
-        <div class="img-hablar">
-
-         <img src="../images/hablar-publico.png" alt="hablar-publico" />
+      <!-- bootstrap servicios -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 serv-main-contenedor">
+            <!-- Media Training -->
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="h3-mt">
+                  Media Training
+                </h3>
+                <p class="p-mt">
+                  Imagine una cámara de televisión, un micrófono o un
+                  reportero grabando cada una de sus palabras. 
+                  Ya sea que se prepare para entrevistas gráficas, radiales, redes sociales o por TV. 
+                  <br>
+                  <br>
+                  Le brindamos las herramientas que necesita para manejar preguntas difíciles y brillar. 
+                  <br>
+                  <br>
+                  Debido a que todos nuestros entrenadores son periodistas expertos, saben qué preguntas se harán
+                  y cómo sus palabras jugarán en cada situación.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-mt" alt="Media-Training" src="../images/media-training.png" class="rounded" />
+              </div>
+            </div>
+            <!-- Media Crisis -->
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="h3-mc">
+                  Media Crisis
+                </h3>
+                <p class="p-mc">
+                Si su empresa o institución fuera inesperadamente puesta en el centro
+                de atención, 
+                <br>
+                <br>
+                <strong> ¿Sabría qué hacer? ¿Puede comunicarse claramente con
+                los medios y las partes interesadas cuando su reputación está en
+                juego? </strong>
+                <br>
+                <br>
+                Ayudaremos a desarrollar un plan de acción, identificar y
+                desarrollar mensajes, preparar portavoces para entrevistas 
+                <br>
+                <br>
+                Simulamos la vida real y pondremos a prueba el plan de emergencia de su equipo de gestión.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-mc" alt="media-crisis" src="../images/media-crisis.png" class="rounded" />
+              </div>
+            </div>
+            <!-- separador-imagen-->
+            <div class="row ">
+              <div class="col-md-12">
+                <img class="separador-org"  alt="organizacion" src="../images/organizacion.png" class="rounded" />
+              </div>
+            </div>
+            <!-- Hablar en Publico - etc -->
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="h3-hp">
+                 * Hablar en Público
+                </h3>
+                <br>
+                <h3 class="h3-hp">
+                 * Comunicación Organizacional
+                </h3>
+                <br>
+                <h3 class="h3-hp">
+                  * Comunicación No Verbal
+                </h3>
+                <br>
+                <br>
+                <h3 class="h3-hp-bis">
+                  Elabore mensajes convincentes
+                </h3>
+                
+                <p class="p-hp">
+                  <br>
+                  Sabe lo que quiere
+                  decir, pero no sabe cómo decirlo Estás estresado!!. 
+                  <br>
+                  <br>
+                  Con los programas de
+                  formación de oradores eliminará el estrés de hablar,
+                  conectará mejor con los oyentes y adaptará su mensaje a su
+                  audiencia. 
+                  <br>
+                  <br>
+                  Cree ejemplos, analogías y argumentos para humanizar los
+                  hechos y use elementos visuales de manera más efectiva. 
+                  <br>
+                  <br>
+                  Dirigido a oradores de todos los niveles, practicará y recibirá comentarios
+                  en el lugar y mejorará de inmediato
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-hp" alt="organizacion2" src="../images/organizacion2.png" class="rounded" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-  </section>
+
+   
 </main>
 
     <footer>
@@ -266,5 +285,8 @@
         </div>
       </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  
   </body>
 </html>
