@@ -17,7 +17,6 @@ ul {
   border-color: rgb(94, 88, 88);
   border-width: 3px;
   border-style: solid;
-  
 }
 
 .celda {
@@ -38,13 +37,12 @@ ul {
   font-weight: bold;
 }
 
-
 .ind-logo {
   margin-top: 5px;
   border: rgb(138, 133, 132) solid 3px;
   border-radius: 5px;
 }
-.logo-nav{
+.logo-nav {
   color: rgb(184, 25, 25);
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -80,10 +78,10 @@ ul {
   font-style: oblique;
   color: rgb(184, 25, 25);
   padding: 5px;
-font-weight: bold;
+  font-weight: bold;
 }
 /* index Main primera imagen */
-.caja1{
+.caja1 {
   /* max-height: fit-content; */
   height: 180%;
   margin-bottom: 40px;
@@ -107,7 +105,7 @@ font-weight: bold;
   font-style: oblique;
   color: rgb(184, 25, 25);
   padding: 5px;
- font-weight: bold;
+  font-weight: bold;
 }
 
 .p-convertirse {
@@ -132,11 +130,10 @@ font-weight: bold;
   border-width: 5px;
   border-style: solid;
   object-fit: cover;
-  height: 180px; 
-  
+  height: 180px;
 }
 
- .txt-serv1 {
+.txt-serv1 {
   color: rgb(184, 25, 25);
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -146,39 +143,34 @@ font-weight: bold;
   left: 5px; */
 }
 
- .img-serv1 {
-  margin:0px 0px 0px 5px;
+.img-serv1 {
+  margin: 0px 0px 0px 5px;
   width: 95%;
-  
-} 
+}
 
- .txt-serv2 {
+.txt-serv2 {
   color: rgb(184, 25, 25);
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: italic;
-  
-} 
- .img-serv2 {
-  
+}
+.img-serv2 {
   width: 95%;
   object-fit: cover;
-} 
+}
 
- .txt-serv3 {
+.txt-serv3 {
   color: rgb(184, 25, 25);
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: italic;
-  
-} 
+}
 .img-serv3 {
- 
   width: 95%;
   object-fit: cover;
-} 
+}
 
-.caja3{
+.caja3 {
   margin-top: 20px;
 }
 .txt-serv4 {
@@ -186,32 +178,33 @@ font-weight: bold;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: italic;
-  
-} 
+}
 .img-serv4 {
   margin-left: 0px;
   width: 95%;
   object-fit: cover;
-} 
+}
 .txt-serv5 {
   color: rgb(184, 25, 25);
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: italic;
-  
-} 
+}
 .img-serv5 {
   margin-left: 0px;
   width: 95%;
   object-fit: cover;
-} 
+}
 /* footer */
-.caja1-footer{
+.caja0-footer {
+  margin-right: 5px;
+}
+.caja1-footer {
   background-color: rgb(228, 183, 189);
-  border-color: rgb(94, 88, 88) ;
+  border-color: rgb(94, 88, 88);
   border-width: 3px;
-  border-style: solid; 
-   margin: 10px 0px 5px 5px; 
+  border-style: solid;
+  margin: 10px 0px 5px 5px;
 }
 /* footer logo contacto sociales */
 .logo-footer {
@@ -221,17 +214,15 @@ font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-size: 16px;
- 
-  margin:0 0 5px 0px;
+
+  margin: 0 0 5px 0px;
   color: black;
   font-weight: bold;
-   /* text-align: justify; */
-
+  /* text-align: justify; */
 }
 
 .logo-footer-p {
   margin: 25px 0 0 5px;
-  
 }
 
 .img-logo-footer {
@@ -252,20 +243,19 @@ font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-size: 16px;
- 
-  margin:0 0 5px 0px;
+
+  margin: 0 0 5px 0px;
   color: black;
   font-weight: bold;
 }
 .phone-p {
-  
   margin: 10px 0 0 5px;
 }
 
 .img-phone {
   margin: 10px 0px 0px 0px;
 
-  background-color: whitesmoke; 
+  background-color: whitesmoke;
   border: solid grey 3px;
   box-shadow: 5px 8px 8px 5px grey;
   height: 50px;
@@ -278,8 +268,8 @@ font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-size: 11px;
- 
-  margin:0 0 5px 0px;
+
+  margin: 0 0 5px 0px;
   color: black;
   font-weight: bold;
 }
@@ -288,23 +278,22 @@ font-weight: bold;
 }
 .img-email {
   margin: 10px 0px 5px 0px;
-  border-color:  rgb(138, 133, 132);
+  border-color: rgb(138, 133, 132);
   border-width: 3px;
   border-style: solid;
   object-fit: cover;
-   padding: 3px; 
-   box-shadow: 5px 8px 8px 5px grey;
+  padding: 3px;
+  box-shadow: 5px 8px 8px 5px grey;
   height: 50px;
   background-color: rgb(34, 63, 192);
-} 
-
-/* footer redes sociales */
-.caja-sociales{
-  margin: 5px 5px 5px 20px;
-  
 }
 
- .footer-sociales {
+/* footer redes sociales */
+.caja-sociales {
+  margin: 5px 5px 5px 20px;
+}
+
+.footer-sociales {
   margin: 5px 5px 5px 10px;
   box-shadow: 5px 8px 8px 5px grey;
   background-color: rgb(182, 203, 241);
@@ -312,18 +301,16 @@ font-weight: bold;
   border: solid 3px grey;
   padding: 5px 5px 5px 5px;
   width: 100%;
-  
 }
 
 .sociales-link {
   margin: 0px 20px 0px 0px;
-  
+
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
-
 
 .linkedin-img {
   height: 35px;
@@ -337,72 +324,64 @@ font-weight: bold;
 .youtube-img {
   height: 40px;
 }
-.caja-serv-footer{
+.caja-serv-footer {
   margin: 10px 0px 0px 0px;
-  
-  border: 5px solid grey;
- 
-  
-  color:black;
+
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-size: 18px;
   font-weight: bold;
 
-  background-color: rgb(226, 95, 121);
+  display: flex;
+
+  justify-content: center;
+}
+
+.footer-serv-lista {
+  margin: 10px 0px 15px 0px;
+  width: 75%;
   box-shadow: 5px 8px 8px 5px grey;
 }
-.footer-serv-lista{
-margin: 10px 0px 15px 0px;
 
- 
-}
-
-.caja-parrafo1{
-
+.caja-parrafo1 {
   display: flex;
-  margin:10px 0px 0px 0px;
-  /* flex-direction: row;
-  justify-content: flex-end; */
-  align-items: center;
+  margin: 10px 0px 0px 0px;
 
+  align-items: center;
 }
- .parrafo1 {
+.parrafo1 {
   box-shadow: 5px 8px 8px 5px grey;
   background-color: rgb(247, 230, 229);
   border: 5px solid grey;
   padding: 3px;
-  color:black;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-size: 22px;
   font-weight: bold;
-  
-} 
+}
 
 /* footer parrafo 2 */
-.caja-parrafo2{
+.caja-parrafo2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-size: 16px;
- 
-  margin:0 0 0px 0px;
+
+  margin: 0 0 0px 0px;
   color: black;
   font-weight: bold;
-  
 }
- .parrafo2 {
+.parrafo2 {
   border-top: 5px solid rgb(19, 18, 18);
 
   /* width:65; */
   margin-top: 20px;
-} 
+}
 .footer-p2 {
-
-display: flex;
-justify-content: center;
- 
-} 
+  display: flex;
+  justify-content: center;
+}
 
 /*nosotros.html*/
 
@@ -873,4 +852,71 @@ justify-content: center;
 /* Contacto */
 .body-contacto {
   background-color: beige;
+}
+
+.sep-contacto {
+  border-color: rgb(94, 88, 88);
+  border-width: 5px;
+  border-style: solid;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  margin: 20px 0px 20px 0px;
+}
+.h2-c-rapidas {
+  font-family: "Poppins", sans-serif;
+  font-size: 230%;
+  margin: 5px;
+  font-style: oblique;
+  color: rgb(184, 25, 25);
+  font-weight: bold;
+}
+.p-c-rapidas {
+  font-family: "Poppins", sans-serif;
+  font-size: 150%;
+  margin: 10px 5px 5px 5px;
+  font-style: italic;
+  color: rgb(184, 25, 25);
+}
+.form-correo {
+  font-family: "Poppins", sans-serif;
+  font-size: 130%;
+  margin: 5px;
+  font-style: oblique;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+.form-texto {
+  font-family: "Poppins", sans-serif;
+  font-size: 130%;
+  margin: 5px;
+  font-style: oblique;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+.ancho-correo {
+  width: 70%;
+}
+.ancho-texto {
+  width: 70%;
+}
+.tipo-consulta {
+  font-family: "Poppins", sans-serif;
+  font-size: 120%;
+  margin: 10px 5px 5px 5px;
+  font-style: italic;
+  color: rgb(184, 25, 25);
+  margin-bottom: 20px;
+}
+.p-domicilio {
+  font-family: "Poppins", sans-serif;
+  font-size: 130%;
+  margin: 5px;
+  font-style: oblique;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+.p-alinear {
+  display: flex;
+  align-items: center;
 }
