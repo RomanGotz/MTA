@@ -5,50 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../images/logo1.png" type="image/x-icon" />
+     <!-- CSS only -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+     crossorigin="anonymous"
+   />
     <link rel="stylesheet" href="../css/style.css" />
     <title>MTA Nosotros</title>
   </head>
 
   <body class="body-nosotros">
     <header>
-      <nav class="menu-nav">
-        
-          <ul>
-          <div class="nav-celdas">
-            <li>
-              <a class="celda-ind" href="../index.html" 
-                ><img class="ind-logo" src="../images/logo1.png" alt="logo"
-              /></a>
-            </li>
-            <li>
-              <a class="celda nos" href="nosotros.html" 
-                >Sobre Nosotros</a
-              >
-            </li>
-            <li>
-              <a class="celda ser" href="servicios.html" 
-                >Servicios</a
-              >
-            </li>
-            <li>
-              <a class="celda cli" href="clientes.html" 
-                >Clientes</a
-              >
-            </li>
-            <li>
-              <a class="celda cont" href="contacto.html" 
-                >Consulta Rápida</a
-              >
-            </li>
-            <li>
-              <a class="celda bot" href="contacto.html" 
-                ><button class="boton-contacto">Contáctanos</button></a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+      <!-- navbar boostrap -->
+            <nav class="navbar navbar-expand-lg menu-nav" style="background-color:rgb(228, 183, 189);">
+              <div class="container-fluid">
+                <a class="navbar-brand logo-nav" href="../index.html"><img class="ind-logo" src="../images/logo1.png" alt="logo"/> MT Argentina. </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active celda-b" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link celda" href="../pages/nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link celda" href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link celda" href="../pages/clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link celda" href="../pages/contacto.html">Consulta Rápida</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link celda" href="../pages/contacto.html"><button type="button" class="btn btn-dark">Contactanos</button></a>
+                    </li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+       
+          </header>
     <main>
       <section>
         <div class="nosotros">
@@ -149,27 +152,23 @@
       </section>
     </main>
 
-        <!-- footer -->
-        <footer>
-          <section class="footer-container">
-            <div class="f-item tel-email">
-              <div class="footer-contact">
+<!-- footer -->
+<footer>
+  <!-- footer estructra general -->
+      <div class="container-fluid caja1-footer">
+        <div class="row ">
+          <div class="col-md-12">
+            <div class="row">
+  <!-- logo-contacto-sociales -->
+              <div class="col-md-4 logo-contacto-sociales">
+  <!-- tel-email -->
                 <ul>
                   <li class="logo-footer">
-                    <a href="index.html"
-                      ><img
-                        class="img-logo-footer"
-                        src="../images/logo1.png"
-                        alt="logo-footer"
-                    /></a>
+                    <a href="../index.html"   ><img class="img-logo-footer"  src="../images/logo1.png" alt="logo-footer"  /></a>
                     <p class="logo-footer-p">Media Training Argentina</p>
                   </li>
                   <li class="phone">
-                    <img
-                      class="img-phone"
-                      src="../images/telefono.png"
-                      alt="teléfono"
-                    />
+                    <img class="img-phone" src="../images/telefono.png" alt="teléfono"/>
                     <p class="phone-p">+54 9 11 609 9815</p>
                   </li>
                   <li class="email">
@@ -177,100 +176,77 @@
                     <p class="email-p">golivieri@mediatrainingargentina.com</p>
                   </li>
                 </ul>
+  <!-- redes sociales -->
+                <div class="row caja-sociales">
+                  <div class="col-md-12 footer-sociales">
+                    <ul class="sociales-link">
+                      <li class="linkedin-li">
+                        <a href="https://www.linkedin.com" target="_blank"><img class="linkedin-img" src="../images/linkedin.png" alt="linkedin"/></a>
+                      </li>
+                      <li class="twitter-li">
+                        <a href="https://www.Twitter.com" target="_blank"><img class="twitter-img" src="../images/gorjeo.png" alt="twitter" /></a>
+                      </li>
+                      <li class="instagram-li">
+                        <a href="https://www.instagram.com" target="_blank"><img class="instagram-img" src="../images/instagram.png" alt="instagram"/></a>
+                      </li>
+                      <li class="youtube-li">
+                        <a href="https://www.youtube.com" target="_blank"><img class="youtube-img" src="../images/youtube-(2).png" alt="youtube"/></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+  <!-- footer servicios + parrafos -->
+                <div class="row">
+                  <div class="col-md-12">
+                  </div>
+                </div>
               </div>
-    
-              <div class="footer-sociales">
-                <ul class="sociales-link">
-                  <li class="linkedin-li">
-                    <a href="https://www.linkedin.com" target="_blank"
-                      ><img
-                        class="linkedin-img"
-                        src="../images/linkedin.png"
-                        alt="linkedin"
-                    /></a>
-                  </li>
-                  <li class="twitter-li">
-                    <a href="https://www.Twitter.com" target="_blank"
-                      ><img
-                        class="twitter-img"
-                        src="../images/gorjeo.png"
-                        alt="twitter"
-                    /></a>
-                  </li>
-                  <li class="instagram-li">
-                    <a href="https://www.instagram.com" target="_blank"
-                      ><img
-                        class="instagram-img"
-                        src="../images/instagram.png"
-                        alt="instagram"
-                    /></a>
-                  </li>
-                  <li class="youtube-li">
-                    <a href="https://www.youtube.com" target="_blank"
-                      ><img
-                        class="youtube-img"
-                        src="../images/youtube-(2).png"
-                        alt="youtube"
-                    /></a>
-                  </li>
-                </ul>
+  <!-- footer servicios -->
+              <div class="col-md-4 caja-serv-footer">
+                <div class="list-group footer-servicios footer-serv-lista">
+                  <a href="../pages/servicios.html" class="list-group-item list-group-item-action active" aria-current="true">
+                    Servicios
+                  </a>
+                  <a href="../pages/servicios.html" class="list-group-item list-group-item-action">Media Training</a>
+                  <a href="../pages/servicios.html" class="list-group-item list-group-item-action">Media Crisis</a>
+                  <a href="../pages/servicios.html" class="list-group-item list-group-item-action">Hablar en Público</a>
+                  <a href="../pages/servicios.html" class="list-group-item list-group-item-action">Comunicación Organizacional</a>
+                  <a href="../pages/servicios.html" class="list-group-item list-group-item-action">Comunicación No Verbal</a>
+  
+                  
+                </div>
+                
+                
               </div>
-            </div>
-    
-            <div class="f-item serviciosgrid">
-              <nav class="nav-footer">
-                <ul class="lista-footer-nav">
-                  <li class="servicios-li">
-                    <a href="pages/servicios.html" >Servicios</a>
-                  </li>
-                  <br />
-                  <li class="media-training-li">
-                    <a href="pages/servicios.html" 
-                      >Media Training</a
-                    >
-                  </li>
-                  <li class="media-crisis-li">
-                    <a href="pages/servicios.html" >Media Crisis</a>
-                  </li>
-                  <li class="hablar-en-publico-li">
-                    <a href="pages/servicios.html" >
-                      Hablar en Público</a
-                    >
-                  </li>
-                  <li class="com-org-li">
-                    <a href="pages/servicios.html" 
-                      >Comunicación Organizacional</a
-                    >
-                  </li>
-                  <li class="com-no-verb-li">
-                    <a href="pages/servicios.html" >
-                      Comunicación No Verbal</a
-                    >
-                  </li>
-                  <br />
-                  <li class="contacto-li">
-                    <a href="pages/contacto.html">Consulta Rápida</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-    
-            <div class="f-item p1grid">
-              <div class="footer-p1">
+  <!-- footer parrafo 1 -->
+              <div class="col-md-4 caja-parrafo1">
                 <p class="parrafo1">
                   Asesoramos y capacitamos en el desarrollo de estrategias para
                   mejorar su comunicación y potenciar su liderazgo.
                 </p>
               </div>
             </div>
-            <div class="f-item p2grid">
-              <div class="footer-p2">
+  <!-- footer parrafo 2 -->
+            <div class="row caja-parrafo2">
+              <div class="col-md-12 footer-p2">
                 <p class="parrafo2">
                   Media Training Argentina 2022, Ciudad de Buenos Aires, Argentina
                 </p>
               </div>
             </div>
-          </section>
-        </footer>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
