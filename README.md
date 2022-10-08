@@ -1,17 +1,17 @@
 # MTA
-Proyecto Media Training Argentina
+<strong>Proyecto Media Training Argentina</strong>
 <h1 align="center">Hola 👋, Soy Roman Gotz</h1>
 <h3 align="center">Soy un apasionado Contador Publico de Argentina que está aprendiendo Desarrollo Full Stack</h3>
 
-- Trabajo como [Contador Publico](https://www.facebook.com/estudiogotz/)
+- Trabajo como [Contador Público](https://www.facebook.com/estudiogotz/)
 
 - 🌱 Actualmente estoy aprendiendo **Desarrollo web, Java Script, React JS, Programación Backend**
 
 - 📫 Me puedes contactar en **romgotz@gmail.com o en linkedin en romangotz**
 
-- 📄 Experiencias [ en Impuestos, Contabilidad y en Auditorías de Profit Recovery en España, Argentina, Francia, Brasil, México, Colombia]
+- 📄 Experiencias  en Impuestos, Contabilidad y en Auditorías de Profit Recovery en España, Argentina, Francia, Brasil, México, Colombia
 
-- ⚡ Fun fact **Surf en Playa Grande - Mar del Plata Argentina**
+- ⚡ Disfruto  **del Surf en Playa Grande - Mar del Plata Argentina**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
