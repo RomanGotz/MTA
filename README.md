@@ -9,7 +9,7 @@ Proyecto Media Training Argentina
 
 - 📫 Me puedes contactar en **romgotz@gmail.com o en linkedin en romangotz**
 
-- 📄 Experiencias [Impuestos, Contabilidad y en Auditorías de Profit Recovery en España, Argentina, Francia, Brasil, México, Colombia](Impuestos, Contabilidad y en Auditorías de Profit Recovery en España, Argentina, Francia, Brasil, México, Colombia)
+- 📄 Experiencias [ en Impuestos, Contabilidad y en Auditorías de Profit Recovery en España, Argentina, Francia, Brasil, México, Colombia]
 
 - ⚡ Fun fact **Surf en Playa Grande - Mar del Plata Argentina**
 
