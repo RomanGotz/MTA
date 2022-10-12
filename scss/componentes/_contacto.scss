@@ -38,7 +38,7 @@
       font-family: $fuente-general;
       font-weight: nth($fuente-peso, 2);
       font-style: nth($fuente-estilo, 1);
-      /* margin: 10px 85px 10px 5px; */
+      
       color: nth($fuente-color-general, 2);
       font-size: nth($fuente-tamano, 3);
     }
@@ -48,7 +48,7 @@
     font-family: $fuente-general;
     font-weight: nth($fuente-peso, 2);
     font-style: nth($fuente-estilo, 1);
-    /* margin: 10px 5px 10px 5px; */
+   
     color: nth($fuente-color-general, 2);
     font-size: nth($fuente-tamano, 3);
   }

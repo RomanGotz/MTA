@@ -511,7 +511,7 @@
   object-fit: cover;
 }
 .main-clientes .logo-caja {
-  margin: 15px 15px;
+  margin: 15px 0px 15px 5px;
 }
 .main-clientes .logo-caja .div2-logo {
   border: 5px rgb(184, 183, 183) solid;
@@ -634,7 +634,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: oblique;
-  /* margin: 10px 85px 10px 5px; */
   color: black;
   font-size: 20px;
 }
@@ -642,7 +641,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: oblique;
-  /* margin: 10px 5px 10px 5px; */
   color: black;
   font-size: 20px;
 }
