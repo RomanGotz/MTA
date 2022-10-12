@@ -1,0 +1,172 @@
+/*nosotros.html*/
+
+@import "../base/variables";
+@import "../base/listas";
+
+.nosotros {
+  /* Nosotros 1er texto */
+  .nos1 {
+    .nosotros-txt {
+      font-family: $fuente-general;
+      color: nth($fuente-color-general, 1);
+      font-style: nth($fuente-estilo, 1);
+
+      .h1-nosotros {
+        margin: 10px 0px 0px 0px;
+        font-size: nth($fuente-tamano, 1);
+        font-weight: nth($fuente-peso, 2);
+      }
+      .p-nosotros {
+        margin: 10px 0px 0px 0px;
+        font-size: nth($fuente-tamano, 4);
+        line-height: 150%;
+        /* Nosotros link en 1er parrafo */
+        .link-p-nos {
+          color: nth($fuente-color-general, 3);
+        }
+      }
+    }
+
+    .img-equipo {
+      border-color: rgb(94, 88, 88);
+      border-width: 4px;
+      border-style: solid;
+      width: 90%;
+      height: 90%;
+      margin: 10px 0px 0px 0px;
+    }
+  }
+
+  /* Nosotros seccion CV */
+
+  .seccion-cv {
+    
+    font-family: $fuente-general;
+    font-style: nth($fuente-estilo, 1);
+    font-size: nth($fuente-tamano, 4);
+    font-weight: nth($fuente-peso, 2);
+    margin: 0px 5px 20px 5px;
+    .gra-item {
+      background-color: rgb(143, 134, 177);
+      margin-right: 5px;
+      margin-top: 5px;
+      padding: 10px;
+
+      .caja-foto-g {
+        border-color: rgb(94, 88, 88);
+        border-width: 5px;
+        border-style: solid;
+        background-color: rgb(195, 197, 206);
+        .foto-cv-g {
+          margin: 5px 5px 5px 5px;
+          border-color: rgb(150, 84, 81);
+          border-width: 5px;
+          border-style: dotted;
+          width: 180px;
+        }
+      }
+      .sociales-g {
+        cursor: pointer;
+        .ver-cv-g button {
+          background-color: rgb(62, 62, 185);
+          color: white;
+          border: 3px solid rgb(58, 48, 78);
+          width: 50%;
+        }
+        .linkedin-g {
+          width: 17%;
+          margin: 10px;
+        }
+        .twitter-g {
+          width: 17%;
+          margin: 10px;
+        }
+      }
+    }
+    .gra-item:hover {
+      transform: scale(1.15);
+      transition: all 0.5s;
+    }
+
+    .fer-item {
+      background-color: rgb(245, 173, 145);
+      padding: 10px;
+      margin-top: 5px;
+      margin-right: 5px;
+      .caja-foto-f {
+        border-color: rgb(94, 88, 88);
+        border-width: 5px;
+        border-style: solid;
+        background-color: rgb(195, 197, 206);
+        .foto-cv-f {
+          margin: 5px 5px 5px 5px;
+          border-color: rgb(150, 84, 81);
+          border-width: 5px;
+          border-style: dotted;
+          width: 180px;
+        }
+      }
+      .sociales-f {
+        cursor: pointer;
+
+        .ver-cv-f button {
+          background-color: rgb(62, 62, 185);
+          color: white;
+          border: 3px solid rgb(58, 48, 78);
+          width: 50%;
+        }
+        .linkedin-f {
+          width: 17%;
+          margin: 10px;
+        }
+        .twitter-f {
+          width: 17%;
+          margin: 10px;
+        }
+      }
+    }
+    .fer-item:hover {
+      transform: scale(1.15);
+      transition: all 0.5s;
+    }
+  }
+
+  /* Nosotros Seccion Porque */
+
+  .xq-nosotros {
+    font-family: $fuente-general;
+    font-style: nth($fuente-estilo, 1);
+    color: nth($fuente-color-general, 1);
+    font-weight: nth($fuente-peso, 2);
+    margin-right: 10px;
+    .xq-contenedor {
+      border: solid black 3px;
+      margin: 5px 5px 5px 5px;
+      background-color: rgb(64, 224, 208);
+      background: linear-gradient(
+        to right,
+        rgb(75, 102, 128),
+        rgb(199, 198, 211)
+      );
+      .img-xq {
+        width: 80%;
+        height: 80%;
+        border: solid grey 5px;
+        margin: 20px 0px 20px 0px;
+      }
+      .xq-txt {
+        margin: 20px 0px 20px 0px;
+        .xq-h2 {
+          font-size: nth($fuente-tamano, 1);
+        }
+      }
+      .xq-txt-p {
+        .xq-p {
+          font-size: nth($fuente-tamano, 2);
+
+          line-height: 150%;
+        }
+      }
+    }
+  }
+}

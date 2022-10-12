@@ -1,0 +1,90 @@
+/* Servicios.html */
+
+/*servicios.html main  */
+
+/* servicios.html media training */
+.servicios-caja0 {
+  .servicios-mt-mc {
+    font-family: $fuente-general;
+    color: nth($fuente-color-general, 1);
+    font-style: nth($fuente-estilo, 1);
+    margin: 10px 5px 5px 5px;
+    .h3-mt {
+      font-weight: nth($fuente-peso, 2);
+      font-size: nth($fuente-tamano, 1);
+    }
+    .p-mt {
+      font-size: nth($fuente-tamano, 4);
+    }
+    .img-mt {
+      border-color: rgb(94, 88, 88);
+      border-width: 5px 5px 5px 5px;
+      border-style: solid;
+      width: 97%;
+      height: 95%;
+      object-fit: cover;
+    }
+
+    /* servicios.html media crisis */
+    .h3-mc {
+      font-weight: nth($fuente-peso, 2);
+      font-size: nth($fuente-tamano, 1);
+    }
+    .p-mc {
+      font-weight: nth($fuente-peso, 1);
+      font-size: nth($fuente-tamano, 4);
+    }
+
+    .img-mc {
+      border-color: rgb(94, 88, 88);
+      border-width: 5px;
+      border-style: solid;
+      width: 97%;
+      height: 95%;
+      object-fit: cover;
+    }
+    /* servicios.html separador */
+
+    .separador-org {
+      border-color: rgb(94, 88, 88);
+      border-width: 3px;
+      border-style: solid;
+      width: 97%;
+      height: 150px;
+      object-fit: cover;
+      margin: 10px 0px 10px 0px;
+    }
+    /* servicios.html hablar en publico-etc */
+    .hp-caja0 {
+      margin: 10px 5px 10px 5px;
+      font-family: $fuente-general;
+      color: nth($fuente-color-general, 1);
+      font-style: nth($fuente-estilo, 1);
+      .h3-hp {
+        font-weight: nth($fuente-peso, 2);
+        font-size: nth($fuente-tamano, 2);
+      }
+
+      .h3-hp-bis {
+        font-weight: nth($fuente-peso, 2);
+        font-size: nth($fuente-tamano, 2);
+      }
+      .p-hp {
+        font-weight: nth($fuente-peso, 1);
+        font-size: nth($fuente-tamano, 4);
+      }
+
+      .img-hp {
+        border-color: rgb(94, 88, 88);
+        border-width: 3px;
+        border-style: solid;
+        width: 97%;
+        height: 97%;
+        object-fit: cover;
+      }
+      .serv-main {
+        height: 80%;
+      }
+    }
+  }
+}

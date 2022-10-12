@@ -1,0 +1,75 @@
+/* index Main*/
+@import "../base/variables";
+@import "../base/listas";
+
+/*  Index Main primer texto */
+.index-main {
+  font-family: $fuente-general;
+
+  color: nth($fuente-color-general, 1);
+  font-style: nth($fuente-estilo, 1);
+
+  .convertirse {
+    .creando {
+      font-size: nth($fuente-tamano, 1);
+      margin: 20px 0px 20px 20px;
+      padding: 5px;
+      font-weight: nth($fuente-peso, 2);
+    }
+    .caja1 {
+      height: 180%;
+      margin-bottom: 40px;
+      .img-creando {
+        border-color: rgb(94, 88, 88);
+        border-width: 5px;
+        border-style: solid;
+        width: 90%;
+        margin: 10px 10px 10px 20px;
+        height: 50%;
+        object-fit: cover;
+      }
+    }
+    /* index Main segundo texto convertirse*/
+    .h2-convertirse {
+      font-size: nth($fuente-tamano, 2);
+      margin: 20px 0px 10px 20px;
+      padding: 5px;
+      font-weight: nth($fuente-peso, 2);
+    }
+    .p-convertirse {
+      font-size: nth($fuente-tamano, 3);
+      margin: 0px 20px 0px 20px;
+      /* index Main segundo texto link a consulta rápida */
+      .p-consulta {
+        font-weight: nth($fuente-peso, 2);
+        color: nth($fuente-color-general, 3);
+      }
+    }
+  }
+  /* Index Main Seccion Servicios */
+  .index-servicios {
+    font-weight: nth($fuente-peso, 2);
+
+    margin: 0px 5px 0px 5px;
+    .serv {
+      border-color: rgb(94, 88, 88);
+      border-width: 5px;
+      border-style: solid;
+      object-fit: cover;
+      height: 180px;
+      width: 100%;
+    }
+    .serv:hover {
+      transform: scale(1.25);
+      transition: all 0.4s;
+    }
+    .txt-serv {
+      font-weight: nth($fuente-peso, 2);
+      color: nth($fuente-color-general, 1);
+    }
+    .caja3 {
+      margin: 40px 0px 25px 50px;
+      width: 90%;
+    }
+  }
+}

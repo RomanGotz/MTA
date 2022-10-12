@@ -1,0 +1,46 @@
+/* index header */
+
+@import "../base/variables";
+@import "../base/listas";
+.menu-nav {
+  margin: 5px;
+  border-color: rgb(94, 88, 88);
+  border-width: 3px;
+  border-style: solid;
+  font-family: $fuente-general;
+  font-style: nth($fuente-estilo, 1);
+  font-weight: nth($fuente-peso, 2);
+  font-size: nth($fuente-tamano, 4);
+  
+  
+
+  .logo-nav {
+    color: nth($fuente-color-general, 1);
+
+    .ind-logo {
+      margin-top: 5px;
+      border: rgb(138, 133, 132) solid 3px;
+      border-radius: 5px;
+    }
+  }
+
+  .celda {
+    color: nth($fuente-color-general, 2);
+  }
+  .celda:hover {
+    background-color: nth($bg-color-general, 3);
+    border: 4px solid grey;
+    border-radius: 5px;
+    color: nth($fuente-color-general, 4);
+    transform: scale(1.03);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .celda-b:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    background-color: nth($bg-color-general, 4);
+    border: 4px solid grey;
+    border-radius: 5px;
+  }
+}
