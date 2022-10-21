@@ -1,8 +1,8 @@
 /* Clientes */
-/* hola 222*/
 
 @import "../base/variables";
 @import "../base/listas";
+@import "../base/extend";
 
 .main-clientes {
   font-style: nth($fuente-estilo, 1);
@@ -44,13 +44,10 @@
     }
 
     .h1-caja {
-      display: flex;
-      justify-content: center;
+      @extend %flex-clasico;
       .h1-clientes {
-        font-family: $fuente-general;
+        @extend %poppins-rojo-obl;
         font-weight: nth($fuente-peso, 2);
-
-        color: nth($fuente-color-general, 1);
         font-size: nth($fuente-tamano, 1);
         padding: 20px;
       }
@@ -77,52 +74,40 @@
   }
 
   .cajon-dicen {
-    display: flex;
-    align-items: center;
-    justify-items: center;
+    @extend %flex-clasico;
     margin: 10px 5px 10px 10px;
     .caja-dicen {
       background-image: url("../images/microfono.png");
       background-repeat: no-repeat;
       background-size: cover;
-    
+
       border-radius: 5px;
-       opacity: 0.9; 
+      opacity: 0.9;
 
       .dicen {
-        display: flex;
-         align-items: center;
-        justify-content: center;
-        
-
+        @extend %flex-clasico;
         border-radius: 5px;
 
-        .h2-flex{
-          display: flex;
-         align-items: center;
-        justify-content: start;
-
+        .h2-flex {
+          @extend %flex-footer1;
           .h2-dicen {
-            /*  margin: 15px 10px; */
-             background-color: rgb(17, 17, 19);
-             background: linear-gradient(
-               to right,
-               rgb(23, 24, 24),
-               rgb(185, 185, 238)
-             );
-             color: nth($fuente-color-general, 4);
-             
-             border-radius: 10px;
-             padding: 5px;
-             font-family: $fuente-general;
-             font-size: nth($fuente-tamano, 2 );
-             padding: 10px;
-             margin: 10px 10px;
-           }
+            background-color: rgb(17, 17, 19);
+            background: linear-gradient(
+              to right,
+              rgb(23, 24, 24),
+              rgb(185, 185, 238)
+            );
+            color: nth($fuente-color-general, 4);
 
+            border-radius: 10px;
+            padding: 5px;
+            font-family: $fuente-general;
+            font-size: nth($fuente-tamano, 2);
+            padding: 10px;
+            margin: 10px 10px;
+          }
         }
 
-        
         .dicen-texto {
           color: nth($fuente-color-general, 4);
           font-family: $fuente-general;
@@ -130,8 +115,6 @@
 
           font-size: nth($fuente-tamano, 3);
           font-weight: nth($fuente-peso, 2);
-
-        
         }
       }
     }

@@ -1,0 +1,62 @@
+@import "./_listas.scss";
+@import "./_variables.scss";
+
+/* Extend base fuente estilo color */
+%poppins-rojo-obl {
+  font-family: $fuente-general;
+
+  color: nth($fuente-color-general, 1);
+  font-style: nth($fuente-estilo, 1);
+}
+/* Extend flex footer contacto */
+%flex-footer1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0 5px 0px;
+}
+/* Extend flex footer P1 y P2 */
+
+%flex-clasico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nosotros CV */
+%margen-cv {
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+%caja-foto {
+  border-color: rgb(94, 88, 88);
+  border-width: 5px;
+  border-style: solid;
+  background-color: rgb(195, 197, 206);
+}
+
+%foto-cv {
+  margin: 5px 5px 5px 5px;
+  border-color: rgb(150, 84, 81);
+  border-width: 5px;
+  border-style: dotted;
+  width: 180px;
+}
+
+%ver-cv {
+  background-color: rgb(62, 62, 185);
+  color: white;
+  border: 3px solid rgb(58, 48, 78);
+  width: 50%;
+}
+%red-cv{
+    width: 17%;
+    margin: 10px;
+}
+
+%cv-hover{
+    transform: scale(1.15);
+      transition: all 0.5s;
+}

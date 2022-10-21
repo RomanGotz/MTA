@@ -2,11 +2,10 @@
 
 @import "../base/variables";
 @import "../base/listas";
+@import "../base/extend";
 
 .caja-consultas {
-  font-family: $fuente-general;
-  color: nth($fuente-color-general, 1);
-  font-style: nth($fuente-estilo, 1);
+  @extend %poppins-rojo-obl;
   margin: 15px 15px;
   .sep-contacto {
     border: rgb(94, 88, 88) 3px solid;
@@ -16,60 +15,46 @@
     object-fit: cover;
   }
   .h2-c-rapidas {
-    font-family: $fuente-general;
-
     font-size: nth($fuente-tamano, 1);
     font-weight: nth($fuente-peso, 2);
-
     margin: 15px 0px 10px 0px;
   }
   .p-rap {
     font-size: nth($fuente-tamano, 4);
     font-weight: nth($fuente-peso, 2);
-
     margin: 5px 0px 20px 5px;
   }
 
   .formulario-caja {
     border: rgb(94, 88, 88) 3px solid;
     margin: 5px 20px 10px 5px;
+    @extend %poppins-rojo-obl;
 
     .form-correo {
-      font-family: $fuente-general;
       font-weight: nth($fuente-peso, 2);
-      font-style: nth($fuente-estilo, 1);
-      
       color: nth($fuente-color-general, 2);
       font-size: nth($fuente-tamano, 3);
     }
   }
 
   .form-texto {
-    font-family: $fuente-general;
     font-weight: nth($fuente-peso, 2);
-    font-style: nth($fuente-estilo, 1);
-   
     color: nth($fuente-color-general, 2);
     font-size: nth($fuente-tamano, 3);
   }
   .tipo-consulta {
-    font-family: $fuente-general;
+    @extend %poppins-rojo-obl;
     font-size: 120%;
     margin: 10px 5px 5px 5px;
-    font-style: nth($fuente-estilo, 1);
-    color: nth($fuente-color-general, 1);
     margin-bottom: 20px;
   }
   .p-domicilio {
-    font-family: $fuente-general;
-    font-size: 130%;
-    margin: 5px;
-    font-style: nth($fuente-estilo, 1);
+    @extend %poppins-rojo-obl;
+    font-size: nth($fuente-tamano, 4);
     color: nth($fuente-color-general, 2);
     font-weight: nth($fuente-peso, 2);
   }
   .p-alinear {
-    display: flex;
-    align-items: center;
+@extend %flex-clasico;
   }
 }

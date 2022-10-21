@@ -1,13 +1,14 @@
 /* Servicios.html */
+@import "../base/variables";
+@import "../base/listas";
+@import "../base/extend";
 
 /*servicios.html main  */
 
 /* servicios.html media training */
 .servicios-caja0 {
   .servicios-mt-mc {
-    font-family: $fuente-general;
-    color: nth($fuente-color-general, 1);
-    font-style: nth($fuente-estilo, 1);
+    @extend %poppins-rojo-obl;
     margin: 10px 5px 5px 5px;
     .h3-mt {
       font-weight: nth($fuente-peso, 2);
@@ -57,9 +58,8 @@
     /* servicios.html hablar en publico-etc */
     .hp-caja0 {
       margin: 10px 5px 10px 5px;
-      font-family: $fuente-general;
-      color: nth($fuente-color-general, 1);
-      font-style: nth($fuente-estilo, 1);
+      @extend %poppins-rojo-obl;
+
       .h3-hp {
         font-weight: nth($fuente-peso, 2);
         font-size: nth($fuente-tamano, 2);

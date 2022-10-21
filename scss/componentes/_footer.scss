@@ -2,13 +2,15 @@
 
 @import "../base/variables";
 @import "../base/listas";
+@import "../base/extend";
 .caja0-footer {
   margin: 0px 5px 5px 5px;
   background-color: nth($bg-color-general, 5);
   background: linear-gradient(
-        to right,
-        nth($bg-color-general, 5),
-        nth($bg-color-general, 8));
+    to right,
+    nth($bg-color-general, 5),
+    nth($bg-color-general, 8)
+  );
   border-color: rgb(94, 88, 88);
   border-width: 3px;
   border-style: solid;
@@ -21,10 +23,7 @@
 
     /* footer logo contacto sociales */
     .logo-footer {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      margin: 0 0 5px 0px;
+      @extend %flex-footer1;
       .logo-footer-p {
         margin: 25px 0 0 5px;
       }
@@ -39,10 +38,7 @@
       }
     }
     .phone {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      margin: 0 0 5px 0px;
+      @extend %flex-footer1;
       .phone-p {
         margin: 10px 0 0 5px;
       }
@@ -58,12 +54,7 @@
     }
 
     .email {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-
-      margin: 0 0 5px 0px;
-
+      @extend %flex-footer1;
       .email-p {
         margin: 10px 0 0 5px;
         font-size: nth($fuente-tamano, 6);
@@ -114,9 +105,8 @@
   }
   /* caja servicios footer */
   .caja-serv-footer {
+    @extend %flex-clasico;
     margin: 10px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
     .footer-serv-lista {
       margin: 10px 0px 45px 0px;
       width: 75%;
@@ -125,9 +115,8 @@
   }
   /* footer parrafo 1 */
   .caja-parrafo1 {
-    display: flex;
+    @extend %flex-clasico;
     margin: 10px 0px 0px 0px;
-    align-items: center;
     .parrafo1 {
       box-shadow: 5px 8px 8px 5px grey;
       border: 5px solid grey;
@@ -139,8 +128,7 @@
   .caja-parrafo2 {
     font-size: nth($fuente-tamano, 5);
     .footer-p2 {
-      display: flex;
-      justify-content: center;
+      @extend %flex-clasico;
       .parrafo2 {
         border-top: 5px solid rgb(19, 18, 18);
         margin-top: 20px;

@@ -2,6 +2,7 @@
 
 @import "../base/variables";
 @import "../base/listas";
+@import "../base/extend";
 .menu-nav {
   margin: 5px;
   border-color: rgb(94, 88, 88);
@@ -11,8 +12,6 @@
   font-style: nth($fuente-estilo, 1);
   font-weight: nth($fuente-peso, 2);
   font-size: nth($fuente-tamano, 4);
-  
-  
 
   .logo-nav {
     color: nth($fuente-color-general, 1);
