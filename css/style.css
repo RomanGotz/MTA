@@ -550,6 +550,67 @@
 }
 
 /* Servicios.html */
+/* Extend base fuente estilo color */
+.caja-consultas .p-domicilio, .caja-consultas .tipo-consulta, .caja-consultas .formulario-caja, .caja-consultas, .main-clientes .logo-caja .h1-caja .h1-clientes, .servicios-caja0 .servicios-mt-mc .hp-caja0, .servicios-caja0 .servicios-mt-mc, .index-main, .nosotros .nos1 .nosotros-txt, .nosotros .xq-nosotros {
+  font-family: "Poppins", sans-serif;
+  color: rgb(184, 25, 25);
+  font-style: oblique;
+}
+
+/* Extend flex footer contacto */
+.main-clientes .cajon-dicen .caja-dicen .dicen .h2-flex, .caja0-footer .caja1-footer .logo-footer, .caja0-footer .caja1-footer .phone, .caja0-footer .caja1-footer .email {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0 5px 0px;
+}
+
+/* Extend flex footer P1 y P2 */
+.caja-consultas .p-alinear, .main-clientes .cajon-dicen .caja-dicen .dicen, .main-clientes .cajon-dicen, .main-clientes .logo-caja .h1-caja, .caja0-footer .caja-serv-footer, .caja0-footer .caja-parrafo1, .caja0-footer .caja-parrafo2 .footer-p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nosotros CV */
+.nosotros .seccion-cv .gra-item, .nosotros .seccion-cv .fer-item {
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.nosotros .seccion-cv .gra-item .caja-foto-g, .nosotros .seccion-cv .fer-item .caja-foto-f {
+  border-color: rgb(94, 88, 88);
+  border-width: 5px;
+  border-style: solid;
+  background-color: rgb(195, 197, 206);
+}
+
+.nosotros .seccion-cv .gra-item .caja-foto-g .foto-cv-g, .nosotros .seccion-cv .fer-item .caja-foto-f .foto-cv-f {
+  margin: 5px 5px 5px 5px;
+  border-color: rgb(150, 84, 81);
+  border-width: 5px;
+  border-style: dotted;
+  width: 180px;
+}
+
+.nosotros .seccion-cv .gra-item .sociales-g .ver-cv-g button, .nosotros .seccion-cv .fer-item .sociales-f .ver-cv-f button {
+  background-color: rgb(62, 62, 185);
+  color: white;
+  border: 3px solid rgb(58, 48, 78);
+  width: 50%;
+}
+
+.nosotros .seccion-cv .gra-item .sociales-g .linkedin-g, .nosotros .seccion-cv .gra-item .sociales-g .twitter-g, .nosotros .seccion-cv .fer-item .sociales-f .linkedin-f, .nosotros .seccion-cv .fer-item .sociales-f .twitter-f {
+  width: 17%;
+  margin: 10px;
+}
+
+.nosotros .seccion-cv .gra-item:hover, .nosotros .seccion-cv .fer-item:hover {
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
 /*servicios.html main  */
 /* servicios.html media training */
 .servicios-caja0 .servicios-mt-mc {
